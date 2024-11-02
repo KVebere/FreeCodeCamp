@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main id="main">
+        <h1 id="title">Inspector Grain</h1>
+        <figure id="img-div">
+            <img id="image" src="https://media.istockphoto.com/id/184337772/photo/you-have-called-me-dwarf-hamster-6-weeks-old.jpg?s=612x612&w=0&k=20&c=_c2lVyjZtFGtJJzziDwUpTLV_v89UIo8B9JK5u5rLaU=" alt="A hamster">
+            <figcaption id="img-caption">My soul hamster</figcaption>
+        </figure>
+        <div id="tribute-info">
+            <p>Inspector Grain was the best hamster to ever live on this planet. He still owns my heart and was my spirit animal.</p>
+        </div>
+        <a id="tribute-link" href="https://www.hamsterwelfare.com/" target="_blank">Learn more about how to take care of hamsters</a>
+    </main>
+</body>
+</html>
