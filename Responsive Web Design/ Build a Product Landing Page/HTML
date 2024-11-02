@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="header">
+        <img id="header-img" src="https://example.com/logo.png" alt="Company Logo">
+        <nav id="nav-bar">
+            <a class="nav-link" href="#features">Features</a>
+            <a class="nav-link" href="#how-it-works">How It Works</a>
+            <a class="nav-link" href="#pricing">Pricing</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="features">
+            <h2>Features</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis pellentesque tellus, et tincidunt nunc vestibulum sed. Pellentesque pretium rhoncus odio, non iaculis lectus fringilla vitae. Aliquam vulputate blandit mollis. Ut et magna ac lorem volutpat egestas. Nullam a turpis sit amet ex gravida sagittis. Aliquam venenatis blandit ipsum vitae imperdiet. Donec vel sodales lorem.</p>
+        </section>
+
+        <section id="how-it-works">
+            <h2>How it works</h2>
+            <video id="video" controls>
+                <source src="https://example.com/product-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section id="pricing">
+            <h2>Pricing</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis pellentesque tellus, et tincidunt nunc vestibulum sed.</p>
+        </section>
+
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+            <input type="submit" id="submit" value="Get Started">
+        </form>
+    </main>
+</body>
+</html>
